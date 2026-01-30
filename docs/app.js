@@ -8,6 +8,7 @@ const state = {
   sectionIndex: 0,
   pageIndex: 0,
   answers: new Map(),
+  choiceOrder: new Map(),
   wrong: [],
   totalPossible: 0,
   groupTotals: new Map(),
@@ -97,6 +98,10 @@ function formatQuestionHeader(question) {
 }
 
 function buildChoiceSet(question) {
+  const cached = state.choiceOrder.get(question._id);
+  if (cached) {
+    return cached;
+  }
   const choices = Array.isArray(question.choice) ? question.choice : [];
   const answer = question.answer;
   const prepared = choices.map((choice) => ({
@@ -104,6 +109,7 @@ function buildChoiceSet(question) {
     isCorrect: answer !== null && answer !== undefined && choice === answer,
   }));
   shuffleInPlace(prepared);
+  state.choiceOrder.set(question._id, prepared);
   return prepared;
 }
 
@@ -186,6 +192,7 @@ function resetState() {
   state.sectionIndex = 0;
   state.pageIndex = 0;
   state.answers = new Map();
+  state.choiceOrder = new Map();
   state.wrong = [];
 }
 
@@ -412,6 +419,46 @@ function finishQuiz() {
     `Score: ${score} / ${state.totalPossible} (${state.totalPossible ? ((score / state.totalPossible) * 100).toFixed(1) : "0.0"}%)`,
   ];
   elements.summaryText.innerHTML = summaryLines.join("<br />");
+
+  elements.wrongList.innerHTML = "";
+  if (state.wrong.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "wrong-card";
+    empty.textContent = "No wrong answers. Great job!";
+    elements.wrongList.appendChild(empty);
+  } else {
+    state.wrong.forEach((item, idx) => {
+      const card = document.createElement("div");
+      card.className = "wrong-card";
+
+      const title = document.createElement("h3");
+      title.textContent = `${idx + 1}. ${formatQuestionHeader(item)}`;
+      card.appendChild(title);
+
+      const questionLine = document.createElement("div");
+      questionLine.className = "meta-line";
+      questionLine.textContent = item.question || "";
+      card.appendChild(questionLine);
+
+      const answerLine = document.createElement("div");
+      answerLine.className = "meta-line";
+      answerLine.textContent = `Correct: ${item.answer}`;
+      card.appendChild(answerLine);
+
+      const userLine = document.createElement("div");
+      userLine.className = "meta-line";
+      userLine.textContent = `Your answer: ${item.user_choice || "(no answer)"}`;
+      card.appendChild(userLine);
+
+      const explanation = document.createElement("div");
+      explanation.className = "explanation";
+      explanation.textContent = item.answer_ko || "Explanation not available.";
+      card.appendChild(explanation);
+
+      elements.wrongList.appendChild(card);
+    });
+  }
+
   elements.downloadBtn.disabled = false;
 }
 
@@ -528,6 +575,7 @@ document.addEventListener("DOMContentLoaded", () => {
   elements.header = document.getElementById("header");
   elements.questionGrid = document.getElementById("question-grid");
   elements.summaryText = document.getElementById("summary-text");
+  elements.wrongList = document.getElementById("wrong-list");
 
   bindEvents();
   loadData();

@@ -144,6 +144,36 @@ button:not(:disabled):hover {
   line-height: 1.6;
 }
 
+.wrong-list {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.wrong-card {
+  border: 1px solid #edd8c3;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fff6ee;
+}
+
+.wrong-card h3 {
+  margin: 0 0 6px;
+  font-size: 15px;
+}
+
+.wrong-card .meta-line {
+  font-size: 14px;
+  color: #5a5146;
+  margin-bottom: 4px;
+}
+
+.wrong-card .explanation {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #3a332b;
+}
+
 @media (max-width: 800px) {
   .question-grid {
     grid-template-columns: 1fr;
