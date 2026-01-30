@@ -16,7 +16,7 @@ body {
 }
 
 .app {
-  max-width: 860px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 32px 20px 48px;
   display: grid;
@@ -99,52 +99,55 @@ button:not(:disabled):hover {
 
 .question-header {
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 
-.question-text {
-  font-size: 18px;
-  margin-bottom: 14px;
-}
-
-.choices {
+.question-grid {
   display: grid;
-  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
 }
 
-.choice-btn {
-  background: #f0e7d8;
-  color: #2a241f;
-  text-align: left;
+.question-card {
+  border: 1px solid #e8dcc8;
   border-radius: 12px;
-  padding: 12px 14px;
+  padding: 12px;
+  background: #fbf7ef;
+}
+
+.question-card h3 {
+  margin: 0 0 8px;
   font-size: 15px;
 }
 
-.choice-btn.correct {
-  background: #c8ead9;
-  color: #1c4d3c;
+.choice-list {
+  display: grid;
+  gap: 6px;
 }
 
-.choice-btn.incorrect {
-  background: #f3c6c0;
-  color: #6d2b24;
+.choice-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
 }
 
 .actions {
   margin-top: 16px;
   display: flex;
   gap: 12px;
-}
-
-.feedback {
-  margin-top: 12px;
-  font-weight: 600;
+  justify-content: flex-end;
 }
 
 .summary-text {
   margin-bottom: 16px;
   line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .question-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 600px) {

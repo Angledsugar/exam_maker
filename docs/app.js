@@ -1,20 +1,17 @@
 const SECTION_ORDER = ["vocabulary", "grammar", "reading"];
 const DATA_URL = "data/select_test.json";
+const PAGE_SIZE = 10;
 
 const state = {
   source: [],
-  questions: [],
-  index: 0,
-  score: 0,
-  correct: 0,
-  answered: 0,
+  sections: [],
+  sectionIndex: 0,
+  pageIndex: 0,
+  answers: new Map(),
   wrong: [],
+  totalPossible: 0,
   groupTotals: new Map(),
   groupScores: new Map(),
-  groupState: {},
-  totalPossible: 0,
-  currentChoices: [],
-  currentAnswered: false,
 };
 
 const elements = {};
@@ -57,7 +54,17 @@ function shuffleQuestionsBySection(questions) {
   return shuffled;
 }
 
-function formatHeader(question, index, total) {
+function formatHeader(sectionKey) {
+  if (sectionKey === "reading") {
+    return "Reading";
+  }
+  if (sectionKey) {
+    return sectionKey.charAt(0).toUpperCase() + sectionKey.slice(1);
+  }
+  return "";
+}
+
+function formatQuestionHeader(question) {
   const section = normalizeSection(question.section);
   if (section === "reading") {
     const unit = question.unit;
@@ -65,21 +72,21 @@ function formatHeader(question, index, total) {
     const page = question.page;
     const parts = ["Reading"];
     if (unit !== null && unit !== undefined) {
-      parts.push(String(unit));
+      parts.push(`Unit:${unit}`);
     }
     if (qnum !== null && qnum !== undefined) {
-      parts.push(String(qnum));
+      parts.push(`Q:${qnum}`);
     }
     let label = parts.join(" ");
     if (page !== null && page !== undefined) {
       label = `${label} (p.${page})`;
     }
-    return `[${index}/${total}] ${label}`;
+    return label;
   }
 
   const sectionLabel = section ? section.charAt(0).toUpperCase() + section.slice(1) : "";
   const qnum = question.question_num;
-  const parts = [`[${index}/${total}]`];
+  const parts = [];
   if (sectionLabel) {
     parts.push(sectionLabel);
   }
@@ -100,6 +107,39 @@ function buildChoiceSet(question) {
   return prepared;
 }
 
+function buildSections(questions) {
+  const bySection = {
+    vocabulary: [],
+    grammar: [],
+    reading: [],
+  };
+
+  questions.forEach((q, idx) => {
+    const sec = normalizeSection(q.section);
+    if (!bySection[sec]) {
+      return;
+    }
+    bySection[sec].push({
+      ...q,
+      _id: idx,
+    });
+  });
+
+  return SECTION_ORDER.map((sec) => ({
+    key: sec,
+    label: formatHeader(sec),
+    questions: bySection[sec],
+  }));
+}
+
+function chunkQuestions(questions) {
+  const pages = [];
+  for (let i = 0; i < questions.length; i += PAGE_SIZE) {
+    pages.push(questions.slice(i, i + PAGE_SIZE));
+  }
+  return pages;
+}
+
 function countQuestionTypes(questions) {
   let onePointCount = 0;
   const groupIds = new Set();
@@ -117,7 +157,6 @@ function countQuestionTypes(questions) {
 function initGroupScoring(questions) {
   state.groupTotals = new Map();
   state.groupScores = new Map();
-  state.groupState = {};
   let nonGroupPossible = 0;
 
   questions.forEach((q) => {
@@ -134,10 +173,6 @@ function initGroupScoring(questions) {
     }
   });
 
-  state.groupTotals.forEach((_, key) => {
-    state.groupState[key] = { allCorrect: true, answered: 0 };
-  });
-
   let groupPossible = 0;
   state.groupScores.forEach((value) => {
     groupPossible += value;
@@ -146,33 +181,16 @@ function initGroupScoring(questions) {
   state.totalPossible = nonGroupPossible + groupPossible;
 }
 
-function finalizeGroupScore() {
-  let groupPoints = 0;
-  state.groupTotals.forEach((total, key) => {
-    const groupState = state.groupState[key];
-    if (!groupState) {
-      return;
-    }
-    if (groupState.allCorrect && groupState.answered === total) {
-      groupPoints += state.groupScores.get(key) || 0;
-    }
-  });
-  return groupPoints;
-}
-
 function resetState() {
-  state.questions = [];
-  state.index = 0;
-  state.score = 0;
-  state.correct = 0;
-  state.answered = 0;
+  state.sections = [];
+  state.sectionIndex = 0;
+  state.pageIndex = 0;
+  state.answers = new Map();
   state.wrong = [];
-  state.currentChoices = [];
-  state.currentAnswered = false;
 }
 
 function renderCounts() {
-  const counts = countQuestionTypes(state.questions.length ? state.questions : state.source);
+  const counts = countQuestionTypes(state.source);
   elements.counts.textContent = `1-point questions: ${counts.onePointCount} | 2-point groups: ${counts.twoPointGroups}`;
 }
 
@@ -188,125 +206,212 @@ function setSummaryVisible(isVisible) {
   elements.summary.classList.toggle("hidden", !isVisible);
 }
 
-function renderQuestion() {
-  const question = state.questions[state.index];
-  if (!question) {
+function currentSection() {
+  return state.sections[state.sectionIndex];
+}
+
+function currentPageQuestions() {
+  const section = currentSection();
+  if (!section) {
+    return [];
+  }
+  const pages = chunkQuestions(section.questions);
+  return pages[state.pageIndex] || [];
+}
+
+function renderPage() {
+  const section = currentSection();
+  if (!section) {
     finishQuiz();
     return;
   }
 
-  state.currentChoices = buildChoiceSet(question);
-  state.currentAnswered = false;
+  const pages = chunkQuestions(section.questions);
+  if (state.pageIndex >= pages.length) {
+    state.pageIndex = 0;
+  }
 
-  elements.progress.textContent = `Question ${state.index + 1} / ${state.questions.length}`;
-  elements.header.textContent = formatHeader(question, state.index + 1, state.questions.length);
-  elements.question.textContent = question.question || "";
+  const pageQuestions = pages[state.pageIndex] || [];
+  elements.sectionProgress.textContent = `Section: ${section.label} (${state.sectionIndex + 1}/${state.sections.length})`;
+  elements.pageProgress.textContent = `Page ${state.pageIndex + 1} / ${pages.length}`;
+  elements.header.textContent = section.label;
 
-  elements.choices.innerHTML = "";
-  state.currentChoices.forEach((choice, idx) => {
-    const button = document.createElement("button");
-    button.className = "choice-btn";
-    const label = String.fromCharCode(65 + idx);
-    button.textContent = `${label}. ${choice.text}`;
-    button.addEventListener("click", () => handleAnswer(idx));
-    elements.choices.appendChild(button);
+  elements.questionGrid.innerHTML = "";
+  pageQuestions.forEach((question, idx) => {
+    const card = document.createElement("div");
+    card.className = "question-card";
+
+    const title = document.createElement("h3");
+    title.textContent = `${idx + 1}. ${formatQuestionHeader(question)}`;
+    card.appendChild(title);
+
+    const prompt = document.createElement("div");
+    prompt.textContent = question.question || "";
+    card.appendChild(prompt);
+
+    const choiceList = document.createElement("div");
+    choiceList.className = "choice-list";
+    const prepared = buildChoiceSet(question);
+
+    prepared.forEach((choice, choiceIndex) => {
+      const label = document.createElement("label");
+      label.className = "choice-item";
+
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = `q_${question._id}`;
+      radio.value = choiceIndex;
+      radio.checked = state.answers.get(question._id)?.index === choiceIndex;
+      radio.addEventListener("change", () => {
+        state.answers.set(question._id, {
+          index: choiceIndex,
+          choice,
+          prepared,
+          question,
+        });
+      });
+
+      const text = document.createElement("span");
+      const labelChar = String.fromCharCode(65 + choiceIndex);
+      text.textContent = `${labelChar}. ${choice.text}`;
+
+      label.appendChild(radio);
+      label.appendChild(text);
+      choiceList.appendChild(label);
+    });
+
+    card.appendChild(choiceList);
+    elements.questionGrid.appendChild(card);
   });
 
-  elements.feedback.textContent = "";
-  elements.nextBtn.disabled = true;
-  elements.skipBtn.disabled = false;
+  elements.prevBtn.disabled = state.sectionIndex === 0 && state.pageIndex === 0;
+  elements.nextBtn.textContent =
+    state.sectionIndex === state.sections.length - 1 && state.pageIndex === pages.length - 1
+      ? "Finish"
+      : "Next";
 }
 
-function handleAnswer(choiceIndex) {
-  if (state.currentAnswered) {
+function goPrev() {
+  const section = currentSection();
+  if (!section) {
+    return;
+  }
+  const pages = chunkQuestions(section.questions);
+  if (state.pageIndex > 0) {
+    state.pageIndex -= 1;
+    renderPage();
+    return;
+  }
+  if (state.sectionIndex > 0) {
+    state.sectionIndex -= 1;
+    const prevSection = currentSection();
+    const prevPages = chunkQuestions(prevSection.questions);
+    state.pageIndex = Math.max(prevPages.length - 1, 0);
+    renderPage();
+  }
+}
+
+function goNext() {
+  const section = currentSection();
+  if (!section) {
+    return;
+  }
+  const pages = chunkQuestions(section.questions);
+  if (state.pageIndex < pages.length - 1) {
+    state.pageIndex += 1;
+    renderPage();
     return;
   }
 
-  const question = state.questions[state.index];
-  const groupId = question.special_list;
-  const groupKey = groupId === null || groupId === undefined ? null : String(groupId);
-  const choice = state.currentChoices[choiceIndex];
-  const buttons = elements.choices.querySelectorAll("button");
-
-  state.currentAnswered = true;
-  state.answered += 1;
-
-  buttons.forEach((button, idx) => {
-    button.disabled = true;
-    if (state.currentChoices[idx].isCorrect) {
-      button.classList.add("correct");
-    }
-  });
-
-  if (choice.isCorrect) {
-    state.correct += 1;
-    if (!groupKey) {
-      const scoreValue = Number.isFinite(Number(question.score)) ? Number(question.score) : 1;
-      state.score += scoreValue;
-    }
-    elements.feedback.textContent = "Correct!";
-  } else {
-    buttons[choiceIndex].classList.add("incorrect");
-    elements.feedback.textContent = "Incorrect.";
-    const wrongEntry = {
-      ...question,
-      user_choice: choice.text,
-      correct_answer: question.answer,
-      presented_choices: state.currentChoices.map((c) => c.text),
-    };
-    state.wrong.push(wrongEntry);
-    if (groupKey) {
-      state.groupState[groupKey].allCorrect = false;
-    }
-  }
-
-  if (groupKey) {
-    state.groupState[groupKey].answered += 1;
-  }
-
-  elements.skipBtn.disabled = true;
-  elements.nextBtn.disabled = false;
-}
-
-function skipQuestion() {
-  if (state.currentAnswered) {
+  if (state.sectionIndex < state.sections.length - 1) {
+    state.sectionIndex += 1;
+    state.pageIndex = 0;
+    renderPage();
     return;
   }
-  const question = state.questions[state.index];
-  const groupId = question.special_list;
-  const groupKey = groupId === null || groupId === undefined ? null : String(groupId);
-  if (groupKey) {
-    state.groupState[groupKey].allCorrect = false;
-  }
-  state.currentAnswered = true;
-  elements.feedback.textContent = "Skipped.";
-  elements.skipBtn.disabled = true;
-  elements.nextBtn.disabled = false;
-}
 
-function nextQuestion() {
-  state.index += 1;
-  if (state.index >= state.questions.length) {
-    finishQuiz();
-  } else {
-    renderQuestion();
-  }
+  finishQuiz();
 }
 
 function finishQuiz() {
   setQuizVisible(false);
   setSummaryVisible(true);
 
-  const finalScore = state.score + finalizeGroupScore();
-  const accuracy = state.answered ? (state.correct / state.answered) * 100 : 0;
+  let answered = 0;
+  let correct = 0;
+  let score = 0;
+  let onePointCorrect = 0;
 
-  elements.summaryText.innerHTML = `
-    Answered: ${state.answered}<br />
-    Correct: ${state.correct}<br />
-    Accuracy: ${accuracy.toFixed(1)}%<br />
-    Score: ${finalScore} / ${state.totalPossible} (${state.totalPossible ? ((finalScore / state.totalPossible) * 100).toFixed(1) : "0.0"}%)
-  `;
+  const groupState = {};
+  state.groupTotals.forEach((total, key) => {
+    groupState[key] = { allCorrect: true, answered: 0, total };
+  });
 
+  state.sections.forEach((section) => {
+    section.questions.forEach((question) => {
+      const entry = state.answers.get(question._id);
+      if (!entry) {
+        if (question.special_list !== null && question.special_list !== undefined) {
+          const key = String(question.special_list);
+          if (groupState[key]) {
+            groupState[key].allCorrect = false;
+          }
+        }
+        return;
+      }
+
+      answered += 1;
+      const isCorrect = entry.choice?.isCorrect;
+      if (isCorrect) {
+        correct += 1;
+      }
+
+      if (question.special_list === null || question.special_list === undefined) {
+        if (isCorrect) {
+          const scoreValue = Number.isFinite(Number(question.score)) ? Number(question.score) : 1;
+          score += scoreValue;
+          onePointCorrect += 1;
+        }
+      } else {
+        const key = String(question.special_list);
+        if (groupState[key]) {
+          groupState[key].answered += 1;
+          if (!isCorrect) {
+            groupState[key].allCorrect = false;
+          }
+        }
+      }
+
+      if (!isCorrect) {
+        state.wrong.push({
+          ...question,
+          user_choice: entry.choice?.text,
+          correct_answer: question.answer,
+          presented_choices: entry.prepared.map((c) => c.text),
+        });
+      }
+    });
+  });
+
+  let groupCorrect = 0;
+  groupState && Object.keys(groupState).forEach((key) => {
+    const group = groupState[key];
+    if (group.allCorrect && group.answered === group.total) {
+      groupCorrect += 1;
+      score += state.groupScores.get(key) || 0;
+    }
+  });
+
+  const accuracy = answered ? (correct / answered) * 100 : 0;
+  const summaryLines = [
+    `Answered: ${answered}`,
+    `Correct: ${correct}`,
+    `Accuracy: ${accuracy.toFixed(1)}%`,
+    `1-point correct: ${onePointCorrect}`,
+    `2-point groups correct: ${groupCorrect} / ${state.groupTotals.size}`,
+    `Score: ${score} / ${state.totalPossible} (${state.totalPossible ? ((score / state.totalPossible) * 100).toFixed(1) : "0.0"}%)`,
+  ];
+  elements.summaryText.innerHTML = summaryLines.join("<br />");
   elements.downloadBtn.disabled = false;
 }
 
@@ -339,13 +444,14 @@ function formatTimestamp(date) {
 
 function startQuiz() {
   resetState();
-  state.questions = shuffleQuestionsBySection(state.source);
-  initGroupScoring(state.questions);
+  const shuffled = shuffleQuestionsBySection(state.source);
+  state.sections = buildSections(shuffled);
+  initGroupScoring(shuffled);
   renderCounts();
   setSummaryVisible(false);
   setQuizVisible(true);
   elements.resetBtn.disabled = false;
-  renderQuestion();
+  renderPage();
 }
 
 function resetQuiz() {
@@ -402,26 +508,25 @@ async function loadData() {
 function bindEvents() {
   elements.startBtn.addEventListener("click", startQuiz);
   elements.resetBtn.addEventListener("click", resetQuiz);
-  elements.skipBtn.addEventListener("click", skipQuestion);
-  elements.nextBtn.addEventListener("click", nextQuestion);
+  elements.prevBtn.addEventListener("click", goPrev);
+  elements.nextBtn.addEventListener("click", goNext);
   elements.downloadBtn.addEventListener("click", downloadWrongQuestions);
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   elements.startBtn = document.getElementById("start-btn");
   elements.resetBtn = document.getElementById("reset-btn");
-  elements.skipBtn = document.getElementById("skip-btn");
+  elements.prevBtn = document.getElementById("prev-btn");
   elements.nextBtn = document.getElementById("next-btn");
   elements.downloadBtn = document.getElementById("download-btn");
   elements.counts = document.getElementById("counts");
   elements.note = document.getElementById("note");
   elements.quiz = document.getElementById("quiz");
   elements.summary = document.getElementById("summary");
-  elements.progress = document.getElementById("progress");
+  elements.sectionProgress = document.getElementById("section-progress");
+  elements.pageProgress = document.getElementById("page-progress");
   elements.header = document.getElementById("header");
-  elements.question = document.getElementById("question");
-  elements.choices = document.getElementById("choices");
-  elements.feedback = document.getElementById("feedback");
+  elements.questionGrid = document.getElementById("question-grid");
   elements.summaryText = document.getElementById("summary-text");
 
   bindEvents();
