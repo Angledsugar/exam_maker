@@ -11,7 +11,7 @@
       "Only artists are naturally creative"
     ],
     "answer": "Relaxation can trigger creative ideas",
-    "answer_ko": "지문의 핵심이 휴식이 창의적 아이디어를 촉발한다는 점이기 때문입니다.",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'Relaxation can trigger creative ideas'입니다.",
     "score": 1,
     "page": 27
   },
@@ -27,7 +27,7 @@
       "They are given incorrect information by the couple"
     ],
     "answer": "They rely on stereotypes based on appearance",
-    "answer_ko": "외모에 대한 고정관념으로 직업을 판단해 회계사를 오해했기 때문입니다.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'They rely on stereotypes based on appearance'입니다.",
     "score": 1,
     "page": 39
   },
@@ -43,7 +43,7 @@
       "Most users prefer thumbs ratings to star ratings."
     ],
     "answer": "Good design needs user understanding and careful change, not only data.",
-    "answer_ko": "좋은 디자인은 데이터만이 아니라 사용자 이해와 신중한 변경이 필요하다는 내용이기 때문입니다.",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'Good design needs user understanding and careful change, not only data.'입니다.",
     "score": 1,
     "page": 51
   },
@@ -59,7 +59,7 @@
       "exhausted"
     ],
     "answer": "fascinated",
-    "answer_ko": "enthralled는 매료된이라는 뜻으로 fascinated와 의미가 같습니다.",
+    "answer_ko": "정답은 'fascinated'로, 의미가 가장 가까습니다.",
     "score": 1,
     "page": 54
   },
@@ -75,7 +75,7 @@
       "function"
     ],
     "answer": "vulnerability",
-    "answer_ko": "동물의 취약함을 보면 보호 본능이 생겨 애정을 느끼기 때문입니다.",
+    "answer_ko": "문매c상 'vulnerability'가 자연스럽습니다.",
     "score": 1,
     "page": 54
   },
@@ -91,7 +91,7 @@
       "under pressure"
     ],
     "answer": "under pressure",
-    "answer_ko": "압박을 받을 때 성급한 결정을 하고 후회한다는 의미이므로 under pressure가 맞습니다.",
+    "answer_ko": "문매c상 'under pressure'가 자연스럽습니다.",
     "score": 1,
     "page": 55
   },
@@ -107,7 +107,7 @@
       "be used as intended"
     ],
     "answer": "look into",
-    "answer_ko": "look into는 자세히 조사하다라는 뜻으로 문맥에 맞습니다.",
+    "answer_ko": "문매c상 'look into'가 자연스럽습니다.",
     "score": 1,
     "page": 55
   },
@@ -123,7 +123,7 @@
       "have something in common"
     ],
     "answer": "have something in common",
-    "answer_ko": "겉으로 달라도 공통점이 있다는 의미이므로 have something in common이 맞습니다.",
+    "answer_ko": "문매c상 'have something in common'가 자연스럽습니다.",
     "score": 1,
     "page": 56
   },
@@ -139,7 +139,7 @@
       "have been"
     ],
     "answer": "is",
-    "answer_ko": "What the survey results show는 하나의 명사절 주어라 단수동사 is가 맞습니다.",
+    "answer_ko": "What절은 단수로 취급되어 동사는 'is'가 맞습니다.",
     "score": 1,
     "page": 58
   },
@@ -155,7 +155,7 @@
       "was"
     ],
     "answer": "was",
-    "answer_ko": "What users wanted most는 단수 주어로 보고 과거이므로 was가 맞습니다.",
+    "answer_ko": "What절은 단수로 취급되어 동사는 'was'가 맞습니다.",
     "score": 1,
     "page": 58
   },
@@ -171,7 +171,7 @@
       "when"
     ],
     "answer": "when",
-    "answer_ko": "간접의문문은 평서어순을 쓰므로 when이 정답입니다.",
+    "answer_ko": "간접의문문은 주어+동사 어순이므로 'when'가 맞습니다.",
     "score": 1,
     "page": 54
   },
@@ -187,7 +187,7 @@
       "to get"
     ],
     "answer": "getting",
-    "answer_ko": "앞 절의 결과로 아이디어가 떠올랐음을 분사구문으로 나타내므로 getting이 맞습니다.",
+    "answer_ko": "문법적으로 'getting'가 맞습니다.",
     "score": 1,
     "page": 61
   },
@@ -203,7 +203,7 @@
       "to write"
     ],
     "answer": "written",
-    "answer_ko": "가이드라인이 PI에 의해 작성된 수동 의미라 과거분사 written이 맞습니다.",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'written'가 맞습니다.",
     "score": 1,
     "page": 61
   },
@@ -219,7 +219,7 @@
       "to post"
     ],
     "answer": "posted",
-    "answer_ko": "온라인에 올린 사진을 수식하므로 과거분사 posted가 자연스럽습니다.",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'posted'가 맞습니다.",
     "score": 1,
     "page": 61
   },
@@ -235,7 +235,7 @@
       "is been"
     ],
     "answer": "was being",
-    "answer_ko": "어제 진행 중에 교체되고 있었음을 나타내는 과거진행 수동이므로 was being이 맞습니다.",
+    "answer_ko": "과거 진행 수동은 'was being + p.p.'이므로 'was being'가 맞습니다.",
     "score": 1,
     "page": 62
   },
@@ -251,7 +251,7 @@
       "A training for fast-food worker"
     ],
     "answer": "A challenge of unusual requests",
-    "answer_ko": "낯선 사람에게 특이한 부탁을 해 보며 거절을 극복하는 도전이라는 뜻입니다.",
+    "answer_ko": "지문에서 설명/언급된 내용과 일치하는 것은 'A challenge of unusual requests'입니다.",
     "score": 1,
     "page": 79
   },
@@ -267,7 +267,7 @@
       "Eating less by skipping meals."
     ],
     "answer": "Eating sweets for relief, not hunger.",
-    "answer_ko": "배고픔이 아니라 위로를 위해 단것을 먹는 것을 뜻합니다.",
+    "answer_ko": "지문에서 설명/언급된 내용과 일치하는 것은 'Eating sweets for relief, not hunger.'입니다.",
     "score": 1,
     "page": 91
   },
@@ -283,7 +283,7 @@
       "To copy a popular English dessert."
     ],
     "answer": "To celebrate a failed attack on the city.",
-    "answer_ko": "비엔나 공격 실패를 기념하기 위해 만들었다는 내용이기 때문입니다.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To celebrate a failed attack on the city.'입니다.",
     "score": 1,
     "page": 91
   },
@@ -299,7 +299,7 @@
       "Mina, a lab assistant, upload files for the team."
     ],
     "answer": "Mina, a lab assistant, uploads files for the team.",
-    "answer_ko": "동격 삽입구는 쉼표로 감싸고 주어 Mina에 맞춰 동사가 단수형 uploads여야 합니다.",
+    "answer_ko": "문법적으로 'Mina, a lab assistant, uploads files for the team.'가 맞습니다.",
     "score": 1,
     "page": 115
   },
@@ -315,7 +315,7 @@
       "Calling only at night."
     ],
     "answer": "Missing calls again and again.",
-    "answer_ko": "서로 전화를 놓쳐 계속 엇갈리는 상황을 뜻합니다.",
+    "answer_ko": "문매c상 해당 표현의 의미가 'Missing calls again and again.'입니다.",
     "score": 1,
     "page": 118
   },
@@ -331,7 +331,7 @@
       "a simple hobby"
     ],
     "answer": "a difficult task",
-    "answer_ko": "challenge는 어려운 과제라는 뜻이라 a difficult task가 맞습니다.",
+    "answer_ko": "정답은 'a difficult task'로, 의미가 가장 가까습니다.",
     "score": 1,
     "page": 120
   },
@@ -347,7 +347,7 @@
       "being very expensive"
     ],
     "answer": "doing something regularly",
-    "answer_ko": "consistency는 일관성과 꾸준함을 뜻하므로 doing something regularly가 맞습니다.",
+    "answer_ko": "정답은 'doing something regularly'로, 의미가 가장 가까습니다.",
     "score": 1,
     "page": 120
   },
@@ -363,7 +363,7 @@
       "dangerous"
     ],
     "answer": "well-loved over time",
-    "answer_ko": "classic은 시간이 지나도 사랑받는 것을 뜻하므로 well-loved over time이 맞습니다.",
+    "answer_ko": "정답은 'well-loved over time'로, 의미가 가장 가까습니다.",
     "score": 1,
     "page": 120
   },
@@ -379,7 +379,7 @@
       "by"
     ],
     "answer": "to",
-    "answer_ko": "pay attention은 전치사 to와 함께 쓰입니다.",
+    "answer_ko": "문매c상 'to'가 자연스럽습니다.",
     "score": 1,
     "page": 121
   },
@@ -395,7 +395,7 @@
       "get sick"
     ],
     "answer": "become popular fast",
-    "answer_ko": "go viral은 빠르게 퍼져 유명해지다라는 뜻입니다.",
+    "answer_ko": "정답은 'become popular fast'로, 의미가 가장 가까습니다.",
     "score": 1,
     "page": 121
   },
@@ -411,7 +411,7 @@
       "stay in touch"
     ],
     "answer": "stay in touch",
-    "answer_ko": "let's stay in touch는 계속 연락하자는 뜻입니다.",
+    "answer_ko": "문매c상 'stay in touch'가 자연스럽습니다.",
     "score": 1,
     "page": 121
   },
@@ -427,7 +427,7 @@
       "what"
     ],
     "answer": "which",
-    "answer_ko": "쉼표가 있는 비제한적 관계절이므로 which가 맞습니다.",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'which'가 맞습니다.",
     "score": 1,
     "page": 123
   },
@@ -443,7 +443,7 @@
       "wanting"
     ],
     "answer": "want",
-    "answer_ko": "주어가 you이고 일반 사실이므로 동사원형 want가 맞습니다.",
+    "answer_ko": "문법적으로 'want'가 맞습니다.",
     "score": 1,
     "page": 123
   },
@@ -459,7 +459,7 @@
       "most convenient"
     ],
     "answer": "more convenient",
-    "answer_ko": "than이 있으므로 비교급 more convenient가 맞습니다.",
+    "answer_ko": "than 비교 구문이므로 'more convenient'가 맞습니다.",
     "score": 1,
     "page": 123
   },
@@ -475,7 +475,7 @@
       "most delicious"
     ],
     "answer": "delicious",
-    "answer_ko": "as ~ as 구조는 형용사 원형을 쓰므로 delicious가 맞습니다.",
+    "answer_ko": "as ~ as 사이에는 형용사 원급이 와야 하여 'delicious'가 맞습니다.",
     "score": 1,
     "page": 123
   },
@@ -491,7 +491,7 @@
       "keeping"
     ],
     "answer": "kept",
-    "answer_ko": "과거 상황이므로 keep의 과거형 kept가 맞습니다.",
+    "answer_ko": "문법적으로 'kept'가 맞습니다.",
     "score": 1,
     "page": 123
   },
@@ -507,7 +507,7 @@
       "has reject"
     ],
     "answer": "was rejected",
-    "answer_ko": "요청이 거절된 수동 의미이므로 was rejected가 맞습니다.",
+    "answer_ko": "문법적으로 'was rejected'가 맞습니다.",
     "score": 1,
     "page": 124
   },
@@ -523,7 +523,7 @@
       "change"
     ],
     "answer": "be changed",
-    "answer_ko": "can 뒤에는 수동형 be changed가 와야 합니다.",
+    "answer_ko": "조동사 뒤의 수동태는 'be + p.p.'이므로 'be changed'가 맞습니다.",
     "score": 1,
     "page": 125
   },
@@ -539,7 +539,7 @@
       "sending"
     ],
     "answer": "sent",
-    "answer_ko": "이메일이 보내진 것이므로 과거분사 sent가 맞습니다.",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'sent'가 맞습니다.",
     "score": 1,
     "page": 125
   },
@@ -555,7 +555,7 @@
       "be forwarding"
     ],
     "answer": "be forwarded",
-    "answer_ko": "should not 뒤에는 수동형 be forwarded가 필요합니다.",
+    "answer_ko": "조동사 뒤의 수동태는 'be + p.p.'이므로 'be forwarded'가 맞습니다.",
     "score": 1,
     "page": 125
   },
@@ -571,7 +571,7 @@
       "How often people read guidebooks"
     ],
     "answer": "How good a place looks in photos",
-    "answer_ko": "사진에서 얼마나 보기 좋게 나오는지를 뜻합니다.",
+    "answer_ko": "문매c상 해당 표현의 의미가 'How good a place looks in photos'입니다.",
     "score": 1,
     "page": 138
   },
@@ -587,7 +587,7 @@
       "used"
     ],
     "answer": "used to",
-    "answer_ko": "be used to + 동명사 구조이므로 used to가 맞습니다.",
+    "answer_ko": "문법적으로 'used to'가 맞습니다.",
     "score": 1,
     "page": 144
   },
@@ -603,7 +603,7 @@
       "I am used to waiting in long lines"
     ],
     "answer": "I used to avoid crowded places.",
-    "answer_ko": "used to는 과거의 습관이 지금은 사라졌음을 나타냅니다.",
+    "answer_ko": "문법적으로 'I used to avoid crowded places.'가 맞습니다.",
     "score": 1,
     "page": 144
   },
@@ -619,7 +619,7 @@
       "Editing is illegal worldwide."
     ],
     "answer": "Real experience matters more.",
-    "answer_ko": "지문은 편집된 사진보다 실제 경험이 더 중요하다고 암시합니다.",
+    "answer_ko": "지문에서 암시되는 결론이 'Real experience matters more.'입니다.",
     "score": 1,
     "page": 151
   },
@@ -635,7 +635,7 @@
       "It can improve memory and give access to rare experiences."
     ],
     "answer": "It can improve memory and give access to rare experiences.",
-    "answer_ko": "VR이 기억력을 높이고 희귀한 경험을 제공할 수 있다는 점이 언급됩니다.",
+    "answer_ko": "지문 내용에 따르면 'It can improve memory and give access to rare experiences.'가 정답입니다.",
     "score": 1,
     "page": 162
   },
@@ -651,7 +651,7 @@
       "count"
     ],
     "answer": "transfer",
-    "answer_ko": "돈을 보내다라는 의미의 동사는 transfer입니다.",
+    "answer_ko": "문매c상 'transfer'가 자연스럽습니다.",
     "score": 1,
     "page": 164
   },
@@ -667,7 +667,7 @@
       "Only governments can see the transaction record"
     ],
     "answer": "Transactions can be recorded even if users stay anonymous",
-    "answer_ko": "실명 없이도 거래 기록이 남는다는 점을 추론할 수 있습니다.",
+    "answer_ko": "지문에서 암시되는 결론이 'Transactions can be recorded even if users stay anonymous'입니다.",
     "score": 1,
     "page": 173
   },
@@ -683,7 +683,7 @@
       "crowded"
     ],
     "answer": "crowded",
-    "answer_ko": "사람이 많아 빨리 걷기 어렵다는 문맥이므로 crowded가 맞습니다.",
+    "answer_ko": "문매c상 'crowded'가 자연스럽습니다.",
     "score": 1,
     "page": 176
   },
@@ -699,7 +699,7 @@
       "exist only online"
     ],
     "answer": "raise awareness",
-    "answer_ko": "raise awareness는 인식을 높이다라는 고정 표현입니다.",
+    "answer_ko": "문매c상 'raise awareness'가 자연스럽습니다.",
     "score": 1,
     "page": 177
   },
@@ -715,7 +715,7 @@
       "ask someone to + V"
     ],
     "answer": "show off",
-    "answer_ko": "새 신발을 자랑한다는 의미이므로 show off가 맞습니다.",
+    "answer_ko": "문매c상 'show off'가 자연스럽습니다.",
     "score": 1,
     "page": 177
   },
@@ -731,7 +731,7 @@
       "as though"
     ],
     "answer": "as though",
-    "answer_ko": "as though는 마치 ~인 것처럼이라는 뜻으로 문맥에 맞습니다.",
+    "answer_ko": "문매c상 'as though'가 자연스럽습니다.",
     "score": 1,
     "page": 177
   },
@@ -747,7 +747,7 @@
       "in the past"
     ],
     "answer": "turn A into B",
-    "answer_ko": "turn A into B는 A를 B로 바꾸다라는 뜻입니다.",
+    "answer_ko": "문매c상 'turn A into B'가 자연스럽습니다.",
     "score": 1,
     "page": 177
   },
@@ -763,7 +763,7 @@
       "raised awareness"
     ],
     "answer": "spread online",
-    "answer_ko": "소문이 한 사이트에서 시작해 온라인으로 퍼졌다는 의미입니다.",
+    "answer_ko": "문매c상 'spread online'가 자연스럽습니다.",
     "score": 1,
     "page": 178
   },
@@ -779,7 +779,7 @@
       "haven’t used to"
     ],
     "answer": "didn’t use to",
-    "answer_ko": "과거 습관의 부정은 did not use to를 쓰므로 didn't use to가 맞습니다.",
+    "answer_ko": "문법적으로 'didn’t use to'가 맞습니다.",
     "score": 1,
     "page": 180
   },
@@ -795,7 +795,7 @@
       "to use"
     ],
     "answer": "use",
-    "answer_ko": "did가 있는 의문문에서는 본동사 원형 use를 씁니다.",
+    "answer_ko": "did 뒤에는 동사 원형이 와야 하여 'use'가 맞습니다.",
     "score": 1,
     "page": 180
   },
@@ -811,7 +811,7 @@
       "has increased"
     ],
     "answer": "has increased",
-    "answer_ko": "기간 표현과 so far는 현재완료를 요구하므로 has increased가 맞습니다.",
+    "answer_ko": "문법적으로 'has increased'가 맞습니다.",
     "score": 1,
     "page": 180
   },
@@ -827,7 +827,7 @@
       "during"
     ],
     "answer": "at",
-    "answer_ko": "특정 시각 앞에는 전치사 at을 씁니다.",
+    "answer_ko": "문법적으로 'at'가 맞습니다.",
     "score": 1,
     "page": 180
   },
@@ -843,7 +843,7 @@
       "therefore"
     ],
     "answer": "because",
-    "answer_ko": "뒤에 절이 오므로 접속사 because가 맞습니다.",
+    "answer_ko": "문법적으로 'because'가 맞습니다.",
     "score": 1,
     "page": 182
   },
@@ -859,7 +859,7 @@
       "will be"
     ],
     "answer": "were",
-    "answer_ko": "as if 가정법에서는 주절이 과거일 때 were를 씁니다.",
+    "answer_ko": "as if/as though 뒤에는 가정법 과거가 와서 'were'가 맞습니다.",
     "score": 1,
     "page": 183
   },
@@ -875,7 +875,7 @@
       "for"
     ],
     "answer": "between",
-    "answer_ko": "두 대상 사이의 차이는 between을 씁니다.",
+    "answer_ko": "두 대상의 차이는 'between A and B'를 써서 'between'가 맞습니다.",
     "score": 1,
     "page": 183
   },
@@ -891,7 +891,7 @@
       "for"
     ],
     "answer": "from",
-    "answer_ko": "????? from? ????.",
+    "answer_ko": "be different from 구문이므로 'from'가 맞습니다.",
     "score": 1,
     "page": 183
   },
@@ -907,7 +907,7 @@
       "In the end"
     ],
     "answer": "In the end",
-    "answer_ko": "??? In the end? ?????.",
+    "answer_ko": "문매c상 'In the end'가 자연스럽습니다.",
     "score": 2,
     "special_list": 1,
     "page": 187
@@ -924,7 +924,7 @@
       "on the other hand"
     ],
     "answer": "as a result",
-    "answer_ko": "??? as a result? ?????.",
+    "answer_ko": "문매c상 'as a result'가 자연스럽습니다.",
     "score": 2,
     "special_list": 1,
     "page": 187
@@ -941,7 +941,7 @@
       "look up"
     ],
     "answer": "look at",
-    "answer_ko": "??? look at? ?????.",
+    "answer_ko": "문매c상 'look at'가 자연스럽습니다.",
     "score": 2,
     "special_list": 1,
     "page": 187
@@ -958,7 +958,7 @@
       "Building Spacecraft for Mars"
     ],
     "answer": "Terraforming Mars: Pros and Cons",
-    "answer_ko": "?? ??? ??? Terraforming Mars: Pros and Cons? ?????.",
+    "answer_ko": "지문 전체를 가장 잘 요약하는 제목이 'Terraforming Mars: Pros and Cons'입니다.",
     "score": 2,
     "special_list": 2,
     "page": 196
@@ -975,7 +975,7 @@
       "Only engineers should decide"
     ],
     "answer": "The plan may work but has costs",
-    "answer_ko": "?? ??? ??? The plan may work but has costs? ?????.",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'The plan may work but has costs'입니다.",
     "score": 2,
     "special_list": 2,
     "page": 196
@@ -992,7 +992,7 @@
       "Mars was warmer long ago"
     ],
     "answer": "Mars was warmer long ago",
-    "answer_ko": "?? ??? ??? Mars was warmer long ago? ?????.",
+    "answer_ko": "지문 내용에 따르면 'Mars was warmer long ago'가 정답입니다.",
     "score": 2,
     "special_list": 2,
     "page": 196
@@ -1009,7 +1009,7 @@
       "To warm Mars and thicken air"
     ],
     "answer": "To warm Mars and thicken air",
-    "answer_ko": "?? ??? ??? To warm Mars and thicken air? ?????.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To warm Mars and thicken air'입니다.",
     "score": 2,
     "special_list": 2,
     "page": 196
@@ -1026,7 +1026,7 @@
       "make an aspect"
     ],
     "answer": "make a decision",
-    "answer_ko": "??? make a decision? ?????.",
+    "answer_ko": "문매c상 'make a decision'가 자연스럽습니다.",
     "score": 2,
     "special_list": 3,
     "page": 199
@@ -1043,7 +1043,7 @@
       "ability"
     ],
     "answer": "species",
-    "answer_ko": "??? species? ?????.",
+    "answer_ko": "문매c상 'species'가 자연스럽습니다.",
     "score": 2,
     "special_list": 3,
     "page": 199
@@ -1060,7 +1060,7 @@
       "dialect"
     ],
     "answer": "signal",
-    "answer_ko": "??? signal? ?????.",
+    "answer_ko": "문매c상 'signal'가 자연스럽습니다.",
     "score": 2,
     "special_list": 3,
     "page": 199
@@ -1077,7 +1077,7 @@
       "as a result"
     ],
     "answer": "for example",
-    "answer_ko": "??? for example? ?????.",
+    "answer_ko": "문매c상 'for example'가 자연스럽습니다.",
     "score": 2,
     "special_list": 3,
     "page": 199
@@ -1094,7 +1094,7 @@
       "to check"
     ],
     "answer": "to check",
-    "answer_ko": "????? to check? ????.",
+    "answer_ko": "문법적으로 'to check'가 맞습니다.",
     "score": 2,
     "special_list": 4,
     "page": 202
@@ -1111,7 +1111,7 @@
       "lesson"
     ],
     "answer": "way",
-    "answer_ko": "????? way? ????.",
+    "answer_ko": "문법적으로 'way'가 맞습니다.",
     "score": 2,
     "special_list": 4,
     "page": 202
@@ -1128,7 +1128,7 @@
       "submitted"
     ],
     "answer": "to submit",
-    "answer_ko": "????? to submit? ????.",
+    "answer_ko": "문법적으로 'to submit'가 맞습니다.",
     "score": 2,
     "special_list": 4,
     "page": 202
@@ -1145,7 +1145,7 @@
       "caught"
     ],
     "answer": "to catch",
-    "answer_ko": "????? to catch? ????.",
+    "answer_ko": "문법적으로 'to catch'가 맞습니다.",
     "score": 2,
     "special_list": 5,
     "page": 205
@@ -1162,7 +1162,7 @@
       "They simplified the menu so that new users could use it more easily."
     ],
     "answer": "They simplified the menu so that new users could use it more easily.",
-    "answer_ko": "????? They simplified the menu so that new users could use it more easily.? ????.",
+    "answer_ko": "문법적으로 'They simplified the menu so that new users could use it more easily.'가 맞습니다.",
     "score": 2,
     "special_list": 5,
     "page": 205
@@ -1179,7 +1179,7 @@
       "during"
     ],
     "answer": "so that",
-    "answer_ko": "????? so that? ????.",
+    "answer_ko": "문법적으로 'so that'가 맞습니다.",
     "score": 2,
     "special_list": 5,
     "page": 205
@@ -1196,7 +1196,7 @@
       "has"
     ],
     "answer": "have",
-    "answer_ko": "????? have? ????.",
+    "answer_ko": "목적을 나타내는 to부정사가 적절하여 'have'가 맞습니다.",
     "score": 2,
     "special_list": 5,
     "page": 205
@@ -1213,7 +1213,7 @@
       "very quiet"
     ],
     "answer": "very many",
-    "answer_ko": "??? very many? ?????.",
+    "answer_ko": "정답은 'very many'로, 의미가 가장 가까습니다.",
     "score": 2,
     "special_list": 6,
     "page": 210
@@ -1230,7 +1230,7 @@
       "do too much"
     ],
     "answer": "do too much",
-    "answer_ko": "??? do too much? ?????.",
+    "answer_ko": "해당 표현의 의미로 'do too much'가 맞습니다.",
     "score": 2,
     "special_list": 6,
     "page": 210
@@ -1247,7 +1247,7 @@
       "compare with"
     ],
     "answer": "contribute to",
-    "answer_ko": "??? contribute to? ?????.",
+    "answer_ko": "해당 표현의 의미로 'contribute to'가 맞습니다.",
     "score": 2,
     "special_list": 6,
     "page": 210
@@ -1264,7 +1264,7 @@
       "rethought"
     ],
     "answer": "rethink",
-    "answer_ko": "????? rethink? ????.",
+    "answer_ko": "문법적으로 'rethink'가 맞습니다.",
     "score": 2,
     "special_list": 7,
     "page": 216
@@ -1281,7 +1281,7 @@
       "easiest"
     ],
     "answer": "easier",
-    "answer_ko": "????? easier? ????.",
+    "answer_ko": "문법적으로 'easier'가 맞습니다.",
     "score": 2,
     "special_list": 7,
     "page": 216
@@ -1298,7 +1298,7 @@
       "a better leader"
     ],
     "answer": "a better leader",
-    "answer_ko": "????? a better leader? ????.",
+    "answer_ko": "문법적으로 'a better leader'가 맞습니다.",
     "score": 2,
     "special_list": 7,
     "page": 216
@@ -1315,7 +1315,7 @@
       "To keep him from nodding off"
     ],
     "answer": "To keep him from nodding off",
-    "answer_ko": "?? ??? ??? To keep him from nodding off? ?????.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To keep him from nodding off'입니다.",
     "score": 2,
     "special_list": 8,
     "page": 219
@@ -1332,7 +1332,7 @@
       "24 hours and 40 minutes"
     ],
     "answer": "14 hours and 40 minutes",
-    "answer_ko": "?? ??? ??? 14 hours and 40 minutes? ?????.",
+    "answer_ko": "지문 내용에 따르면 '14 hours and 40 minutes'가 정답입니다.",
     "score": 2,
     "special_list": 8,
     "page": 219
@@ -1349,7 +1349,7 @@
       "10–12 hours per night"
     ],
     "answer": "7–9 hours per night",
-    "answer_ko": "?? ??? ??? 7–9 hours per night? ?????.",
+    "answer_ko": "지문 내용에 따르면 '7–9 hours per night'가 정답입니다.",
     "score": 2,
     "special_list": 8,
     "page": 219
@@ -1366,7 +1366,7 @@
       "To compare age groups"
     ],
     "answer": "To show tiredness can cause disasters",
-    "answer_ko": "?? ??? ??? To show tiredness can cause disasters? ?????.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To show tiredness can cause disasters'입니다.",
     "score": 2,
     "special_list": 8,
     "page": 219
