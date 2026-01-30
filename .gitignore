@@ -1,0 +1,4 @@
+# Ignore legacy artifacts
+leagacy/
+__pycache__/
+review_note/

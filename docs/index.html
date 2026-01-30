@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>English Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <div>
+          <h1>English Test</h1>
+          <p class="subtitle">Vocabulary ? Grammar ? Reading</p>
+        </div>
+        <div class="meta" id="counts"></div>
+      </header>
+
+      <section class="panel">
+        <div class="controls">
+          <button id="start-btn">Start Quiz</button>
+          <button id="reset-btn" disabled>Reset</button>
+        </div>
+        <p id="note" class="note"></p>
+      </section>
+
+      <section id="quiz" class="panel hidden">
+        <div id="progress" class="progress"></div>
+        <div id="header" class="question-header"></div>
+        <div id="question" class="question-text"></div>
+        <div id="choices" class="choices"></div>
+        <div class="actions">
+          <button id="skip-btn">Skip</button>
+          <button id="next-btn" disabled>Next</button>
+        </div>
+        <div id="feedback" class="feedback"></div>
+      </section>
+
+      <section id="summary" class="panel hidden">
+        <h2>Summary</h2>
+        <div id="summary-text" class="summary-text"></div>
+        <button id="download-btn" disabled>Download wrong questions</button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

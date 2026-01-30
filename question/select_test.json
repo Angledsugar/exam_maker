@@ -1,0 +1,1374 @@
+[
+  {
+    "unit": 1,
+    "section": "reading",
+    "question_num": 1,
+    "question": "What is the main idea of the passage?",
+    "choice": [
+      "Showers are better than exercise",
+      "Phones are the main source of stress",
+      "Relaxation can trigger creative ideas",
+      "Only artists are naturally creative"
+    ],
+    "answer": "Relaxation can trigger creative ideas",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'Relaxation can trigger creative ideas'입니다.",
+    "score": 1,
+    "page": 27
+  },
+  {
+    "unit": 3,
+    "section": "reading",
+    "question_num": 4,
+    "question": "Why are most people wrong about who the accountant is?",
+    "choice": [
+      "They rely on stereotypes based on appearance",
+      "They forget what they learned in school",
+      "They believe artists never dress formally",
+      "They are given incorrect information by the couple"
+    ],
+    "answer": "They rely on stereotypes based on appearance",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'They rely on stereotypes based on appearance'입니다.",
+    "score": 1,
+    "page": 39
+  },
+  {
+    "unit": 4,
+    "section": "reading",
+    "question_num": 1,
+    "question": "What is the main idea of the passage?",
+    "choice": [
+      "Online surveys are the best way to improve websites.",
+      "Good design needs user understanding and careful change, not only data.",
+      "Reporting tools solve most problems on social media.",
+      "Most users prefer thumbs ratings to star ratings."
+    ],
+    "answer": "Good design needs user understanding and careful change, not only data.",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'Good design needs user understanding and careful change, not only data.'입니다.",
+    "score": 1,
+    "page": 51
+  },
+  {
+    "unit": 1234,
+    "section": "vocabulary",
+    "question_num": 1,
+    "question": "The word “enthralled” is closest in meaning to:",
+    "choice": [
+      "bored",
+      "fascinated",
+      "frightened",
+      "exhausted"
+    ],
+    "answer": "fascinated",
+    "answer_ko": "정답은 'fascinated'로, 의미가 가장 가까습니다.",
+    "score": 1,
+    "page": 54
+  },
+  {
+    "unit": 1234,
+    "section": "vocabulary",
+    "question_num": 3,
+    "question": "People often feel affection toward animals when they notice an animal’s ______.",
+    "choice": [
+      "discrimination",
+      "survey",
+      "vulnerability",
+      "function"
+    ],
+    "answer": "vulnerability",
+    "answer_ko": "문매c상 'vulnerability'가 자연스럽습니다.",
+    "score": 1,
+    "page": 54
+  },
+  {
+    "unit": 1234,
+    "section": "vocabulary",
+    "question_num": 5,
+    "question": "When you are ______, you may make quick decisions and regret them later",
+    "choice": [
+      "attracted to",
+      "in common",
+      "on the other hand",
+      "under pressure"
+    ],
+    "answer": "under pressure",
+    "answer_ko": "문매c상 'under pressure'가 자연스럽습니다.",
+    "score": 1,
+    "page": 55
+  },
+  {
+    "unit": 1234,
+    "section": "vocabulary",
+    "question_num": 1,
+    "question": "The team decided to ______ the reports to understand the real reason",
+    "choice": [
+      "look into",
+      "on the other hand",
+      "there is a reason why",
+      "be used as intended"
+    ],
+    "answer": "look into",
+    "answer_ko": "문매c상 'look into'가 자연스럽습니다.",
+    "score": 1,
+    "page": 55
+  },
+  {
+    "unit": 1234,
+    "section": "vocabulary",
+    "question_num": 1,
+    "question": "Two online communities may seem different, but they can still ______.",
+    "choice": [
+      "look into the issue",
+      "give the mind space",
+      "work in the background",
+      "have something in common"
+    ],
+    "answer": "have something in common",
+    "answer_ko": "문매c상 'have something in common'가 자연스럽습니다.",
+    "score": 1,
+    "page": 56
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 2,
+    "question": "What the survey results show ____ that stress affects judgment.",
+    "choice": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": "is",
+    "answer_ko": "What절은 단수로 취급되어 동사는 'is'가 맞습니다.",
+    "score": 1,
+    "page": 58
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 4,
+    "question": "What users wanted most ____ an explanation for their feelings.",
+    "choice": [
+      "were",
+      "are",
+      "have been",
+      "was"
+    ],
+    "answer": "was",
+    "answer_ko": "What절은 단수로 취급되어 동사는 'was'가 맞습니다.",
+    "score": 1,
+    "page": 58
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "Can you tell me ____ the meeting starts?",
+    "choice": [
+      "when does",
+      "when did",
+      "when is",
+      "when"
+    ],
+    "answer": "when",
+    "answer_ko": "간접의문문은 주어+동사 어순이므로 'when'가 맞습니다.",
+    "score": 1,
+    "page": 54
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 61,
+    "question": "He stepped away from the screen, ____ a new idea soon after.",
+    "choice": [
+      "getting",
+      "get",
+      "got",
+      "to get"
+    ],
+    "answer": "getting",
+    "answer_ko": "문법적으로 'getting'가 맞습니다.",
+    "score": 1,
+    "page": 61
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 6,
+    "question": "The guideline ____ by the PI was short and clear.",
+    "choice": [
+      "writing",
+      "written",
+      "wrote",
+      "to write"
+    ],
+    "answer": "written",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'written'가 맞습니다.",
+    "score": 1,
+    "page": 61
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 7,
+    "question": "The photos ____ online yesterday were removed this morning.",
+    "choice": [
+      "posting",
+      "post",
+      "posted",
+      "to post"
+    ],
+    "answer": "posted",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'posted'가 맞습니다.",
+    "score": 1,
+    "page": 61
+  },
+  {
+    "unit": 1234,
+    "section": "grammar",
+    "question_num": 13,
+    "question": "During yesterday’s update, the old system ____ replaced.",
+    "choice": [
+      "has been",
+      "is being",
+      "was being",
+      "is been"
+    ],
+    "answer": "was being",
+    "answer_ko": "과거 진행 수동은 'was being + p.p.'이므로 'was being'가 맞습니다.",
+    "score": 1,
+    "page": 62
+  },
+  {
+    "unit": 5,
+    "section": "reading",
+    "question_num": 3,
+    "question": "What is “rejection therapy”?",
+    "choice": [
+      "A challenge of unusual requests",
+      "A way to avoid strangers",
+      "A plan to borrow money",
+      "A training for fast-food worker"
+    ],
+    "answer": "A challenge of unusual requests",
+    "answer_ko": "지문에서 설명/언급된 내용과 일치하는 것은 'A challenge of unusual requests'입니다.",
+    "score": 1,
+    "page": 79
+  },
+  {
+    "unit": 6,
+    "section": "reading",
+    "question_num": 5,
+    "question": "What is “comfort eating” in the passage?",
+    "choice": [
+      "Eating sweets for relief, not hunger.",
+      "Eating only “low fat” products.",
+      "Eating protein to gain muscle",
+      "Eating less by skipping meals."
+    ],
+    "answer": "Eating sweets for relief, not hunger.",
+    "answer_ko": "지문에서 설명/언급된 내용과 일치하는 것은 'Eating sweets for relief, not hunger.'입니다.",
+    "score": 1,
+    "page": 91
+  },
+  {
+    "unit": 7,
+    "section": "reading",
+    "question_num": 4,
+    "question": "Why were moon-shaped pastries made in Vienna?",
+    "choice": [
+      "To honor a French royal wedding.",
+      "To celebrate a failed attack on the city.",
+      "To sell pastries to tourists in Italy.",
+      "To copy a popular English dessert."
+    ],
+    "answer": "To celebrate a failed attack on the city.",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To celebrate a failed attack on the city.'입니다.",
+    "score": 1,
+    "page": 91
+  },
+  {
+    "unit": 8,
+    "section": "grammar",
+    "question_num": 3,
+    "question": "Choose the best sentence.",
+    "choice": [
+      "Mina, a lab assistant uploads files for the team",
+      "Mina a lab assistant, uploads files for the team.",
+      "Mina, a lab assistant, uploads files for the team.",
+      "Mina, a lab assistant, upload files for the team."
+    ],
+    "answer": "Mina, a lab assistant, uploads files for the team.",
+    "answer_ko": "문법적으로 'Mina, a lab assistant, uploads files for the team.'가 맞습니다.",
+    "score": 1,
+    "page": 115
+  },
+  {
+    "unit": 8,
+    "section": "reading",
+    "question_num": 3,
+    "question": "In Paragraph B, what does “phone tag” mean?",
+    "choice": [
+      "Sharing one phone in a family.",
+      "Missing calls again and again.",
+      "Using an app to track a phone.",
+      "Calling only at night."
+    ],
+    "answer": "Missing calls again and again.",
+    "answer_ko": "문매c상 해당 표현의 의미가 'Missing calls again and again.'입니다.",
+    "score": 1,
+    "page": 118
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 2,
+    "question": "The word “challenge” is closest in meaning to:",
+    "choice": [
+      "a quiet place",
+      "a small gift",
+      "a difficult task",
+      "a simple hobby"
+    ],
+    "answer": "a difficult task",
+    "answer_ko": "정답은 'a difficult task'로, 의미가 가장 가까습니다.",
+    "score": 1,
+    "page": 120
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 4,
+    "question": "“Consistency” is closest in meaning to:",
+    "choice": [
+      "doing something regularly",
+      "feeling nervous",
+      "eating too much",
+      "being very expensive"
+    ],
+    "answer": "doing something regularly",
+    "answer_ko": "정답은 'doing something regularly'로, 의미가 가장 가까습니다.",
+    "score": 1,
+    "page": 120
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 4,
+    "question": "The word “classic” is closest in meaning to:",
+    "choice": [
+      "well-loved over time",
+      "new and modern",
+      "noisy and messy",
+      "dangerous"
+    ],
+    "answer": "well-loved over time",
+    "answer_ko": "정답은 'well-loved over time'로, 의미가 가장 가까습니다.",
+    "score": 1,
+    "page": 120
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 12,
+    "question": "Please pay attention ___ the instructions.",
+    "choice": [
+      "for",
+      "to",
+      "with",
+      "by"
+    ],
+    "answer": "to",
+    "answer_ko": "문매c상 'to'가 자연스럽습니다.",
+    "score": 1,
+    "page": 121
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 15,
+    "question": "“Go viral” most nearly means:",
+    "choice": [
+      "feel relief",
+      "stay the same",
+      "become popular fast",
+      "get sick"
+    ],
+    "answer": "become popular fast",
+    "answer_ko": "정답은 'become popular fast'로, 의미가 가장 가까습니다.",
+    "score": 1,
+    "page": 121
+  },
+  {
+    "unit": 5678,
+    "section": "vocabulary",
+    "question_num": 17,
+    "question": "After you move to another city, let’s ___.",
+    "choice": [
+      "go viral",
+      "walk up to",
+      "give up",
+      "stay in touch"
+    ],
+    "answer": "stay in touch",
+    "answer_ko": "문매c상 'stay in touch'가 자연스럽습니다.",
+    "score": 1,
+    "page": 121
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 5,
+    "question": "The report, ____ was published online, became popular.",
+    "choice": [
+      "who",
+      "where",
+      "which",
+      "what"
+    ],
+    "answer": "which",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'which'가 맞습니다.",
+    "score": 1,
+    "page": 123
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 6,
+    "question": "If you ____ to change a habit, start small.",
+    "choice": [
+      "wanted",
+      "want",
+      "wants",
+      "wanting"
+    ],
+    "answer": "want",
+    "answer_ko": "문법적으로 'want'가 맞습니다.",
+    "score": 1,
+    "page": 123
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 9,
+    "question": "Texting is often ____ than calling during meetings.",
+    "choice": [
+      "conveniently",
+      "convenient",
+      "more convenient",
+      "most convenient"
+    ],
+    "answer": "more convenient",
+    "answer_ko": "than 비교 구문이므로 'more convenient'가 맞습니다.",
+    "score": 1,
+    "page": 123
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "This dish is as ____ as my grandmother’s.",
+    "choice": [
+      "deliciously",
+      "delicious",
+      "more delicious",
+      "most delicious"
+    ],
+    "answer": "delicious",
+    "answer_ko": "as ~ as 사이에는 형용사 원급이 와야 하여 'delicious'가 맞습니다.",
+    "score": 1,
+    "page": 123
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 14,
+    "question": "Although she was tired, she ____ working.",
+    "choice": [
+      "keep",
+      "keeps",
+      "kept",
+      "keeping"
+    ],
+    "answer": "kept",
+    "answer_ko": "문법적으로 'kept'가 맞습니다.",
+    "score": 1,
+    "page": 123
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 2,
+    "question": "The request ____ because the plan was unclear.",
+    "choice": [
+      "rejected",
+      "was rejected",
+      "is rejecting",
+      "has reject"
+    ],
+    "answer": "was rejected",
+    "answer_ko": "문법적으로 'was rejected'가 맞습니다.",
+    "score": 1,
+    "page": 124
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 8,
+    "question": "The plan can ____ easily if you start small.",
+    "choice": [
+      "changed",
+      "be changed",
+      "be changing",
+      "change"
+    ],
+    "answer": "be changed",
+    "answer_ko": "조동사 뒤의 수동태는 'be + p.p.'이므로 'be changed'가 맞습니다.",
+    "score": 1,
+    "page": 125
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 12,
+    "question": "The meeting was canceled, so the email was ____ later.",
+    "choice": [
+      "sends",
+      "send",
+      "sent",
+      "sending"
+    ],
+    "answer": "sent",
+    "answer_ko": "후치 수식/수동에는 과거분사가 와서 'sent'가 맞습니다.",
+    "score": 1,
+    "page": 125
+  },
+  {
+    "unit": 5678,
+    "section": "grammar",
+    "question_num": 14,
+    "question": "The message should not ____ without permission.",
+    "choice": [
+      "forward",
+      "forwarded",
+      "be forwarded",
+      "be forwarding"
+    ],
+    "answer": "be forwarded",
+    "answer_ko": "조동사 뒤의 수동태는 'be + p.p.'이므로 'be forwarded'가 맞습니다.",
+    "score": 1,
+    "page": 125
+  },
+  {
+    "unit": 9,
+    "section": "reading",
+    "question_num": 6,
+    "question": "What does “Instagrammability” mean in the passage?",
+    "choice": [
+      "How good a place looks in photos",
+      "How cheap a trip becomes online",
+      "How fast hotels serve breakfast",
+      "How often people read guidebooks"
+    ],
+    "answer": "How good a place looks in photos",
+    "answer_ko": "문매c상 해당 표현의 의미가 'How good a place looks in photos'입니다.",
+    "score": 1,
+    "page": 138
+  },
+  {
+    "unit": 10,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "These days, we are already ____ seeing edited photos online, so reality can feel disappointing.",
+    "choice": [
+      "used to",
+      "using to",
+      "use to",
+      "used"
+    ],
+    "answer": "used to",
+    "answer_ko": "문법적으로 'used to'가 맞습니다.",
+    "score": 1,
+    "page": 144
+  },
+  {
+    "unit": 10,
+    "section": "grammar",
+    "question_num": 13,
+    "question": "Which sentence shows a past habit that is no longer true?",
+    "choice": [
+      "I am used to cold weather.",
+      "I got used to hiking alone.",
+      "I used to avoid crowded places.",
+      "I am used to waiting in long lines"
+    ],
+    "answer": "I used to avoid crowded places.",
+    "answer_ko": "문법적으로 'I used to avoid crowded places.'가 맞습니다.",
+    "score": 1,
+    "page": 144
+  },
+  {
+    "unit": 10,
+    "section": "reading",
+    "question_num": 13,
+    "question": "Which statement is implied by the passage?",
+    "choice": [
+      "Photos ruin every trip.",
+      "Real experience matters more.",
+      "Influencers are always careful.",
+      "Editing is illegal worldwide."
+    ],
+    "answer": "Real experience matters more.",
+    "answer_ko": "지문에서 암시되는 결론이 'Real experience matters more.'입니다.",
+    "score": 1,
+    "page": 151
+  },
+  {
+    "unit": 11,
+    "section": "reading",
+    "question_num": 9,
+    "question": "Which is mentioned as a benefit of VR in education?",
+    "choice": [
+      "It removes the need for textbooks completely.",
+      "It makes students finish homework faster every day.",
+      "It prevents students from making mistakes in class.",
+      "It can improve memory and give access to rare experiences."
+    ],
+    "answer": "It can improve memory and give access to rare experiences.",
+    "answer_ko": "지문 내용에 따르면 'It can improve memory and give access to rare experiences.'가 정답입니다.",
+    "score": 1,
+    "page": 162
+  },
+  {
+    "unit": 12,
+    "section": "vocabulary",
+    "question_num": 5,
+    "question": "You can ____ money to a friend in seconds.",
+    "choice": [
+      "borrow",
+      "transfer",
+      "hide",
+      "count"
+    ],
+    "answer": "transfer",
+    "answer_ko": "문매c상 'transfer'가 자연스럽습니다.",
+    "score": 1,
+    "page": 164
+  },
+  {
+    "unit": 12,
+    "section": "reading",
+    "question_num": 5,
+    "question": "What can be inferred about Bitcoin users and privacy?",
+    "choice": [
+      "Transactions can be recorded even if users stay anonymous",
+      "Users must share their real names to send Bitcoin",
+      "The blockchain hides all transaction history completely",
+      "Only governments can see the transaction record"
+    ],
+    "answer": "Transactions can be recorded even if users stay anonymous",
+    "answer_ko": "지문에서 암시되는 결론이 'Transactions can be recorded even if users stay anonymous'입니다.",
+    "score": 1,
+    "page": 173
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 4,
+    "question": "The street was so ___ that we could not walk quickly.",
+    "choice": [
+      "secure",
+      "passive",
+      "digital",
+      "crowded"
+    ],
+    "answer": "crowded",
+    "answer_ko": "문매c상 'crowded'가 자연스럽습니다.",
+    "score": 1,
+    "page": 176
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 9,
+    "question": "The campaign worked to ___ about ocean pollution.",
+    "choice": [
+      "raise awareness",
+      "show off",
+      "spread online",
+      "exist only online"
+    ],
+    "answer": "raise awareness",
+    "answer_ko": "문매c상 'raise awareness'가 자연스럽습니다.",
+    "score": 1,
+    "page": 177
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 14,
+    "question": "He posted photos to ___ his new shoes",
+    "choice": [
+      "focus on",
+      "show off",
+      "learn by doing",
+      "ask someone to + V"
+    ],
+    "answer": "show off",
+    "answer_ko": "문매c상 'show off'가 자연스럽습니다.",
+    "score": 1,
+    "page": 177
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 16,
+    "question": "She spoke confidently, ___ she knew the answer.",
+    "choice": [
+      "because of this",
+      "in the past",
+      "depend on",
+      "as though"
+    ],
+    "answer": "as though",
+    "answer_ko": "문매c상 'as though'가 자연스럽습니다.",
+    "score": 1,
+    "page": 177
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 22,
+    "question": "One post can ___ a quiet place ___ a tourist spot",
+    "choice": [
+      "depend on",
+      "turn A into B",
+      "ask someone to + V",
+      "in the past"
+    ],
+    "answer": "turn A into B",
+    "answer_ko": "문매c상 'turn A into B'가 자연스럽습니다.",
+    "score": 1,
+    "page": 177
+  },
+  {
+    "unit": 9101112,
+    "section": "vocabulary",
+    "question_num": 23,
+    "question": "The rumor started on one site and then ___.",
+    "choice": [
+      "shut down",
+      "focused on",
+      "spread online",
+      "raised awareness"
+    ],
+    "answer": "spread online",
+    "answer_ko": "문매c상 'spread online'가 자연스럽습니다.",
+    "score": 1,
+    "page": 178
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 6,
+    "question": "Ten years ago, many travelers ____ plan trips around photos",
+    "choice": [
+      "didn’t use to",
+      "don’t used to",
+      "weren’t used to",
+      "haven’t used to"
+    ],
+    "answer": "didn’t use to",
+    "answer_ko": "문법적으로 'didn’t use to'가 맞습니다.",
+    "score": 1,
+    "page": 180
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 10,
+    "question": "Did you ____ to travel without a smartphone?",
+    "choice": [
+      "used",
+      "use",
+      "using",
+      "to use"
+    ],
+    "answer": "use",
+    "answer_ko": "did 뒤에는 동사 원형이 와야 하여 'use'가 맞습니다.",
+    "score": 1,
+    "page": 180
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "Over the last few years, the number of online payments ____ a lot so far.",
+    "choice": [
+      "increases",
+      "increased",
+      "was increasing",
+      "has increased"
+    ],
+    "answer": "has increased",
+    "answer_ko": "문법적으로 'has increased'가 맞습니다.",
+    "score": 1,
+    "page": 180
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "The meeting starts ____ 3 p.m.",
+    "choice": [
+      "in",
+      "on",
+      "at",
+      "during"
+    ],
+    "answer": "at",
+    "answer_ko": "문법적으로 'at'가 맞습니다.",
+    "score": 1,
+    "page": 180
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 2,
+    "question": "The trail was closed ____ it rained all day.",
+    "choice": [
+      "because",
+      "because of",
+      "due to",
+      "therefore"
+    ],
+    "answer": "because",
+    "answer_ko": "문법적으로 'because'가 맞습니다.",
+    "score": 1,
+    "page": 182
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 10,
+    "question": "He acted as if he ____ in charge during the meeting.",
+    "choice": [
+      "is",
+      "were",
+      "has been",
+      "will be"
+    ],
+    "answer": "were",
+    "answer_ko": "as if/as though 뒤에는 가정법 과거가 와서 'were'가 맞습니다.",
+    "score": 1,
+    "page": 183
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 13,
+    "question": "There is a difference ____ the two versions.",
+    "choice": [
+      "from",
+      "between",
+      "with",
+      "for"
+    ],
+    "answer": "between",
+    "answer_ko": "두 대상의 차이는 'between A and B'를 써서 'between'가 맞습니다.",
+    "score": 1,
+    "page": 183
+  },
+  {
+    "unit": 9101112,
+    "section": "grammar",
+    "question_num": 14,
+    "question": "This method is different ____ the old one.",
+    "choice": [
+      "from",
+      "between",
+      "of",
+      "for"
+    ],
+    "answer": "from",
+    "answer_ko": "be different from 구문이므로 'from'가 맞습니다.",
+    "score": 1,
+    "page": 183
+  },
+  {
+    "unit": 13,
+    "section": "vocabulary",
+    "question_num": 7,
+    "question": "They did not agree at first. ____ , they reached a decision before the deadline.",
+    "choice": [
+      "As a result",
+      "In turn",
+      "In the long run",
+      "In the end"
+    ],
+    "answer": "In the end",
+    "answer_ko": "문매c상 'In the end'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 1,
+    "page": 187
+  },
+  {
+    "unit": 13,
+    "section": "vocabulary",
+    "question_num": 8,
+    "question": "He forgot the file; ______, the meeting started late.",
+    "choice": [
+      "in the end",
+      "as a result",
+      "in the long run",
+      "on the other hand"
+    ],
+    "answer": "as a result",
+    "answer_ko": "문매c상 'as a result'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 1,
+    "page": 187
+  },
+  {
+    "unit": 13,
+    "section": "vocabulary",
+    "question_num": 9,
+    "question": "Before deciding, let’s ____ the evidence we already have again.",
+    "choice": [
+      "look for",
+      "look at",
+      "look after",
+      "look up"
+    ],
+    "answer": "look at",
+    "answer_ko": "문매c상 'look at'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 1,
+    "page": 187
+  },
+  {
+    "unit": 13,
+    "section": "reading",
+    "question_num": 1,
+    "question": "What is the best title for the passage?",
+    "choice": [
+      "A Fast Life on Mars",
+      "Mars: A Warmer Past",
+      "Terraforming Mars: Pros and Cons",
+      "Building Spacecraft for Mars"
+    ],
+    "answer": "Terraforming Mars: Pros and Cons",
+    "answer_ko": "지문 전체를 가장 잘 요약하는 제목이 'Terraforming Mars: Pros and Cons'입니다.",
+    "score": 2,
+    "special_list": 2,
+    "page": 196
+  },
+  {
+    "unit": 13,
+    "section": "reading",
+    "question_num": 2,
+    "question": "What is the main idea of the passage?",
+    "choice": [
+      "Mars can be fixed quickly.",
+      "The plan may work but has costs",
+      "Greenhouse gas solves everything.",
+      "Only engineers should decide"
+    ],
+    "answer": "The plan may work but has costs",
+    "answer_ko": "글의 핵심 내용을 가장 잘 대표하는 선택지가 'The plan may work but has costs'입니다.",
+    "score": 2,
+    "special_list": 2,
+    "page": 196
+  },
+  {
+    "unit": 13,
+    "section": "reading",
+    "question_num": 3,
+    "question": "What have spacecraft found evidence of?",
+    "choice": [
+      "Mars has many cities today",
+      "Mars has enough oxygen now",
+      "Mars is already Earthlike",
+      "Mars was warmer long ago"
+    ],
+    "answer": "Mars was warmer long ago",
+    "answer_ko": "지문 내용에 따르면 'Mars was warmer long ago'가 정답입니다.",
+    "score": 2,
+    "special_list": 2,
+    "page": 196
+  },
+  {
+    "unit": 13,
+    "section": "reading",
+    "question_num": 4,
+    "question": "Why do supporters suggest adding greenhouse gases?",
+    "choice": [
+      "To cool Mars quickly",
+      "To reduce gravity on Mars",
+      "To remove water from Mar",
+      "To warm Mars and thicken air"
+    ],
+    "answer": "To warm Mars and thicken air",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To warm Mars and thicken air'입니다.",
+    "score": 2,
+    "special_list": 2,
+    "page": 196
+  },
+  {
+    "unit": 14,
+    "section": "vocabulary",
+    "question_num": 12,
+    "question": "We need to ____ before Friday, even if the choice is not perfect.",
+    "choice": [
+      "make a decision",
+      "make a signal",
+      "make a dialect",
+      "make an aspect"
+    ],
+    "answer": "make a decision",
+    "answer_ko": "문매c상 'make a decision'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 3,
+    "page": 199
+  },
+  {
+    "unit": 14,
+    "section": "vocabulary",
+    "question_num": 15,
+    "question": "Humans are just one ____ among many on Earth",
+    "choice": [
+      "aspect",
+      "species",
+      "accent",
+      "ability"
+    ],
+    "answer": "species",
+    "answer_ko": "문매c상 'species'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 3,
+    "page": 199
+  },
+  {
+    "unit": 14,
+    "section": "vocabulary",
+    "question_num": 14,
+    "question": "The alarm light is a ____ that something is wrong with the system.",
+    "choice": [
+      "means",
+      "signal",
+      "strategy",
+      "dialect"
+    ],
+    "answer": "signal",
+    "answer_ko": "문매c상 'signal'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 3,
+    "page": 199
+  },
+  {
+    "unit": 14,
+    "section": "vocabulary",
+    "question_num": 13,
+    "question": "Take online banking, ____; it has changed how people manage money",
+    "choice": [
+      "on the other hand",
+      "in the end",
+      "for example",
+      "as a result"
+    ],
+    "answer": "for example",
+    "answer_ko": "문매c상 'for example'가 자연스럽습니다.",
+    "score": 2,
+    "special_list": 3,
+    "page": 199
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 8,
+    "question": "We don’t have enough time ____ the data today",
+    "choice": [
+      "check",
+      "checking",
+      "checked",
+      "to check"
+    ],
+    "answer": "to check",
+    "answer_ko": "문법적으로 'to check'가 맞습니다.",
+    "score": 2,
+    "special_list": 4,
+    "page": 202
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 9,
+    "question": "We finally found a ____ to solve the login issue.",
+    "choice": [
+      "way",
+      "price",
+      "traffic",
+      "lesson"
+    ],
+    "answer": "way",
+    "answer_ko": "문법적으로 'way'가 맞습니다.",
+    "score": 2,
+    "special_list": 4,
+    "page": 202
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 8,
+    "question": "She was the first participant ____ the form.",
+    "choice": [
+      "submits",
+      "submitting",
+      "to submit",
+      "submitted"
+    ],
+    "answer": "to submit",
+    "answer_ko": "문법적으로 'to submit'가 맞습니다.",
+    "score": 2,
+    "special_list": 4,
+    "page": 202
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 13,
+    "question": "He left early ____ the last train.",
+    "choice": [
+      "catching",
+      "to catch",
+      "catch",
+      "caught"
+    ],
+    "answer": "to catch",
+    "answer_ko": "문법적으로 'to catch'가 맞습니다.",
+    "score": 2,
+    "special_list": 5,
+    "page": 205
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 14,
+    "question": "They simplified the menu to help new users.",
+    "choice": [
+      "They simplified the menu, so help new users.",
+      "They simplified the menu because new users could use it easily.",
+      "They simplified the menu so that help new users.",
+      "They simplified the menu so that new users could use it more easily."
+    ],
+    "answer": "They simplified the menu so that new users could use it more easily.",
+    "answer_ko": "문법적으로 'They simplified the menu so that new users could use it more easily.'가 맞습니다.",
+    "score": 2,
+    "special_list": 5,
+    "page": 205
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 15,
+    "question": "The device shows a code ____ users can verify ownership.",
+    "choice": [
+      "to",
+      "so that",
+      "for",
+      "during"
+    ],
+    "answer": "so that",
+    "answer_ko": "문법적으로 'so that'가 맞습니다.",
+    "score": 2,
+    "special_list": 5,
+    "page": 205
+  },
+  {
+    "unit": 14,
+    "section": "grammar",
+    "question_num": 16,
+    "question": "We adjusted the schedule in order to ____ more time for discussion.",
+    "choice": [
+      "have",
+      "having",
+      "had",
+      "has"
+    ],
+    "answer": "have",
+    "answer_ko": "목적을 나타내는 to부정사가 적절하여 'have'가 맞습니다.",
+    "score": 2,
+    "special_list": 5,
+    "page": 205
+  },
+  {
+    "unit": 15,
+    "section": "vocabulary",
+    "question_num": 11,
+    "question": "The word “countless” is closest in meaning to _____.",
+    "choice": [
+      "very many",
+      "very few",
+      "very early",
+      "very quiet"
+    ],
+    "answer": "very many",
+    "answer_ko": "정답은 'very many'로, 의미가 가장 가까습니다.",
+    "score": 2,
+    "special_list": 6,
+    "page": 210
+  },
+  {
+    "unit": 15,
+    "section": "vocabulary",
+    "question_num": 12,
+    "question": "“Overdo it” means to _____.",
+    "choice": [
+      "do it early",
+      "do it again",
+      "do it safely",
+      "do too much"
+    ],
+    "answer": "do too much",
+    "answer_ko": "해당 표현의 의미로 'do too much'가 맞습니다.",
+    "score": 2,
+    "special_list": 6,
+    "page": 210
+  },
+  {
+    "unit": 15,
+    "section": "vocabulary",
+    "question_num": 12,
+    "question": "“Be a factor in” means to _____.",
+    "choice": [
+      "disagree with",
+      "contribute to",
+      "laugh at",
+      "compare with"
+    ],
+    "answer": "contribute to",
+    "answer_ko": "해당 표현의 의미로 'contribute to'가 맞습니다.",
+    "score": 2,
+    "special_list": 6,
+    "page": 210
+  },
+  {
+    "unit": 15,
+    "section": "grammar",
+    "question_num": 10,
+    "question": "The documentary made many viewers ____ about their habits.",
+    "choice": [
+      "rethink",
+      "rethinking",
+      "to rethink",
+      "rethought"
+    ],
+    "answer": "rethink",
+    "answer_ko": "문법적으로 'rethink'가 맞습니다.",
+    "score": 2,
+    "special_list": 7,
+    "page": 216
+  },
+  {
+    "unit": 15,
+    "section": "grammar",
+    "question_num": 11,
+    "question": "A clear checklist can make a task ____.",
+    "choice": [
+      "easily",
+      "ease",
+      "easier",
+      "easiest"
+    ],
+    "answer": "easier",
+    "answer_ko": "문법적으로 'easier'가 맞습니다.",
+    "score": 2,
+    "special_list": 7,
+    "page": 216
+  },
+  {
+    "unit": 15,
+    "section": "grammar",
+    "question_num": 12,
+    "question": "The experience made her ____",
+    "choice": [
+      "better leader",
+      "better leading",
+      "lead better",
+      "a better leader"
+    ],
+    "answer": "a better leader",
+    "answer_ko": "문법적으로 'a better leader'가 맞습니다.",
+    "score": 2,
+    "special_list": 7,
+    "page": 216
+  },
+  {
+    "unit": 15,
+    "section": "reading",
+    "question_num": 5,
+    "question": "Why did Gardner’s friends drive him around at night?",
+    "choice": [
+      "To take him to a quiet place",
+      "To help him drink more caffeine",
+      "To make him feel more relaxed",
+      "To keep him from nodding off"
+    ],
+    "answer": "To keep him from nodding off",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To keep him from nodding off'입니다.",
+    "score": 2,
+    "special_list": 8,
+    "page": 219
+  },
+  {
+    "unit": 15,
+    "section": "reading",
+    "question_num": 6,
+    "question": "After he finally fell asleep, how long did Gardner sleep?",
+    "choice": [
+      "10 hours and 40 minutes",
+      "14 hours and 40 minutes",
+      "18 hours and 40 minute",
+      "24 hours and 40 minutes"
+    ],
+    "answer": "14 hours and 40 minutes",
+    "answer_ko": "지문 내용에 따르면 '14 hours and 40 minutes'가 정답입니다.",
+    "score": 2,
+    "special_list": 8,
+    "page": 219
+  },
+  {
+    "unit": 15,
+    "section": "reading",
+    "question_num": 7,
+    "question": "According to the Sleep Foundation in the passage, most adults (18+) need:",
+    "choice": [
+      "7–9 hours per night",
+      "5–7 hours per night",
+      "8.5–9.5 hours per night",
+      "10–12 hours per night"
+    ],
+    "answer": "7–9 hours per night",
+    "answer_ko": "지문 내용에 따르면 '7–9 hours per night'가 정답입니다.",
+    "score": 2,
+    "special_list": 8,
+    "page": 219
+  },
+  {
+    "unit": 15,
+    "section": "reading",
+    "question_num": 8,
+    "question": "Why does the passage mention the Chernobyl accident and road accidents?",
+    "choice": [
+      "To show records can be dangerous",
+      "To show tiredness can cause disasters",
+      "To explain why people oversleep",
+      "To compare age groups"
+    ],
+    "answer": "To show tiredness can cause disasters",
+    "answer_ko": "지문에서 제시한 이유와 일치하는 선택지가 'To show tiredness can cause disasters'입니다.",
+    "score": 2,
+    "special_list": 8,
+    "page": 219
+  }
+]
